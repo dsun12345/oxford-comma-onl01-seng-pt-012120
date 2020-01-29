@@ -6,6 +6,6 @@ def oxford_comma(array)
     string = array.join(" and ")
   else 
     string = string.new 
-    array.each_with_index do {
+    array.each_with_index do |item,
   end
 end
