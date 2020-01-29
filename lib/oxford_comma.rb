@@ -5,6 +5,6 @@ def oxford_comma(array)
   when 2 
     string = array.join(" and ")
   else 
-    string = 
+    string = string.new
   end
 end
