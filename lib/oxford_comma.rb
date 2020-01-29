@@ -10,5 +10,6 @@ def oxford_comma(array)
       string += "and " + item if index == array.size - 1 
     break if index == array.size - 1 
     string += item  + ", "
+    return string 
   end
 end
